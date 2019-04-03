@@ -4,7 +4,8 @@ function average(arr) {
 		sum += number;
 	});
 	let arrAverage = sum / arr.length;
-	return (arrAverage);
+	let result = arrAverage.toFixed(2);
+	return (result);
 }
 
 console.log(average([1,4,2]));
